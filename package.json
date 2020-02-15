@@ -1,0 +1,51 @@
+{
+	"name": "total-lines",
+	"displayName": "Total Lines",
+	"description": "To show the number of lines in the file",
+	"publisher": "Praveen",
+	"author": {
+		"name": "Praveen Punniyamoorthi"
+	  },
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"icon": "images/icon.png",
+	"keywords": [
+		"total lines", 
+		"document lines", 
+		"page lines",
+		"file lines"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/praveenp30/total-lines.git"
+	},
+	"homepage": "https://github.com/praveenp30/total-lines.git#readme",
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.totalLines",
+				"title": "Total Lines"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.41.0",
+		"eslint": "^6.6.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"vscode-test": "^1.2.2"
+	}
+}
