@@ -2,10 +2,10 @@
 	"name": "total-lines",
 	"displayName": "Total Lines",
 	"description": "To show the number of lines in the file",
-	"publisher": "Praveen",
+	"publisher": "praveencrony",
 	"author": {
 		"name": "Praveen Punniyamoorthi"
-	  },
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.41.0"
@@ -15,8 +15,8 @@
 	],
 	"icon": "images/icon.png",
 	"keywords": [
-		"total lines", 
-		"document lines", 
+		"total lines",
+		"document lines",
 		"page lines",
 		"file lines"
 	],
@@ -29,14 +29,6 @@
 		"*"
 	],
 	"main": "./extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.totalLines",
-				"title": "Total Lines"
-			}
-		]
-	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^5.2.7",
